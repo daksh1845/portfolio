@@ -1,0 +1,142 @@
+.app__about{
+    padding-top:20vh;
+}
+
+.app__about_heading{
+    text-align: center;
+}
+
+.app__about_heading h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.app__about_heading h4{
+    color:gray;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.app__about_box{
+    padding-block:4rem;
+}
+
+.app__about_box-boxes{
+    display:flex;
+    justify-content: center;
+    cursor:pointer
+}
+
+.app__about_box-boxes div{
+    border:solid 2px rgb(194, 174, 174);
+    padding:2rem 4rem;
+    border-radius:10px;
+    margin-inline:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__about_box-boxes div h4{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:gray;
+}
+
+.app__about_box-boxes div:hover{
+    color:white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.app__about_box-paragraph{
+    padding-top:5rem;
+    padding-bottom: 3rem;
+    padding-inline: 9.5rem;
+    color:rgb(78, 78, 78);
+}
+
+.app__about_box-button{
+    padding-inline: 9.5rem;
+}
+
+.app__about_box-button button{
+    padding:1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(33, 33, 33);
+    color:white;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+}
+
+.app__about_box-button button:hover{
+    background-color: black;
+}
+
+.app__about_box-button button p{
+    padding-right:0.4rem;
+}
+
+@media(max-width:1300px){
+    .app__about{
+        padding-top: 2rem;
+        font-size: 0.5rem;
+    }
+    .app__about_heading h1{
+        font-size: 1.5rem;
+    }
+    .app__about_heading h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:700px){
+    .app__about_box-paragraph{
+        padding-top: 5vh;
+        padding-bottom: 0px;
+    }
+    .app__about{
+        padding-top:5rem;
+        font-size: 1rem;
+    }
+    .app__about_box-boxes{
+        display:flex;
+        flex-direction: column;
+        padding-inline:4%;
+    }
+    .app__about_box-boxes div{
+        padding:2rem 1rem;
+        margin-block:1rem;
+        margin-inline:0.3rem;
+    }
+    .app__about_box-boxes div p{
+        font-size: 0.8rem;
+    }
+    .app__about_box-boxes div h4{
+        font-size: 0.6rem;
+    }
+    .app__about_heading{
+        padding-top: 10%;
+    }
+    .app__about_heading h1{
+        font-size: 2.5rem;
+    }
+    .app__about_heading h4{
+        font-size: 1rem;
+    }
+    .app__about_box{
+        padding-block: 2rem;
+    }
+    .app__about_box-paragraph{
+        padding-inline:2rem;
+    }
+    .app__about_box-button{
+        padding-inline:2rem;
+    }
+    .paragraph-hide{
+        display:none;
+    }
+}

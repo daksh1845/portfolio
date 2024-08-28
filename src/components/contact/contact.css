@@ -1,0 +1,196 @@
+.app__contact-heading{
+    text-align: center;
+}
+
+.app__contact-heading h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.app__contact-heading h4{
+    color:gray;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.app__contact-box{
+    display: flex;
+    padding:5rem 10rem;
+    justify-content: space-around;
+}
+
+.chat-boxes div{
+    text-align: center;
+    padding:2rem 8rem;
+    border:solid 1px black;
+    border-radius: 10px;
+    margin-block: 3rem;
+}
+
+.app__contact-box_chat h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(45, 45, 45);
+}
+
+.p1{
+    padding-top:0.2rem;
+    font-weight: 500;
+}
+
+.p2{
+    font-size: 0.9rem;
+    color:rgb(93, 93, 93)
+}
+
+.p31{
+    margin-top:1.5rem;
+    color:rgb(92, 92, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.p31 p{
+    padding-right:5px;
+    transition: 0.3s;
+}
+
+.p32{
+    margin-top:1.5rem;
+    color:rgb(92, 92, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.p32 p{
+    padding-right:5px;
+    transition: 0.3s;
+}
+
+.p31 p a{
+    text-decoration: none;
+    color:gray
+}
+
+.p32 p a{
+    text-decoration: none;
+    color:gray
+}
+
+.chat-boxes div:hover{
+    .p31 p{
+        padding-right: 8px;
+    };
+    .p32 p{
+        padding-right: 8px;
+    };
+    .p2{
+        color:rgb(173, 173, 173);
+    }
+}
+
+.chat-boxes div:hover{
+    color:white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.app__contact-box_project h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:rgb(45, 45, 45);
+}
+
+.project_box{
+    position:relative;
+    margin-block:3rem;
+}
+
+.project_box p{
+    position: absolute;
+    top:-13px;
+    left:20px;
+    padding:2px;
+    background-color: white;
+    color:rgb(93, 93, 93);
+    font-weight: 500;
+}
+
+.project_box input{
+    font-size: 1.2rem;
+    color:gray;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    padding-left:2rem;
+    padding-right:12rem;
+    border-radius: 10px;
+    border:solid 2px rgb(155, 155, 155);
+}
+
+.project_box-detail input{
+    padding-bottom: 10rem;
+}
+
+.app__contact-box_project button{
+    background-color: rgb(33,33,33);
+    color:white;
+    border:none;
+    margin-block:2rem;
+    padding:1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.app__contact-box_project button:hover{
+    background-color: black;
+}
+
+@media(max-width:1300px){
+    .app__contact-box{
+        padding-inline: 0;
+        flex-direction: column;
+    }
+    .project_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project_box input{
+        padding-top:1.5rem;
+        padding-bottom:1.5rem;
+        padding-left:2rem;
+        padding-right:0rem;
+        width:91vw;
+    }
+    .project_box p{
+        left:130px;
+    }
+    .app__contact-box_project button{
+        margin-left:4.5%
+    }
+    .project_box-detail input{
+        padding-bottom: 10rem;
+    }
+}
+
+@media(max-width:700px){
+    .app__contact-heading h1{
+        font-size: 2.5rem;
+    }
+    .app__contact-heading h4{
+        font-size: 1rem;
+    }
+    .project_box p{
+        left:40px;
+    }
+    
+}
