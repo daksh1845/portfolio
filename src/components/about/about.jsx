@@ -35,7 +35,7 @@ function About(){
                         <p className="paragraph-hide">I'm enthusiastic about the chance to team up with others and combine our talents to build something truly remarkable. Let’s work together to make amazing things happen in the digital world!</p><br/>
                     </div>
                     <div className="app__about_box-button">
-                        <button onClick={()=>alert("updating soon")}>
+                        <button onClick={()=>alert("uploading soon")}>
                             <p>Download CV</p>  <RiFilePaper2Line style={{fontSize:20}}/>
                         </button>
                     </div>
